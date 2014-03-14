@@ -1,19 +1,8 @@
-<!DOCTYPE HTML>
-<html>
-  <head>
-    <title>Bus</title>
-  </head>
-  <body>
-      <h1> Bus </h1>
+<div>
+        <h1> Closest stops</h1>
 
-      <ul>
-        <li>
-          <a href = "/"> Home</a>
-        </li>
-      </ul>
+        <% @stops.each do |stop| %>
+            <%= stop %> <br />
+        <% end %>
 
-
-
-  </body>
-
-</html
+</div>
